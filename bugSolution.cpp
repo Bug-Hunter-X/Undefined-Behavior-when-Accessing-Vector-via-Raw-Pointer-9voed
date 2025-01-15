@@ -1,0 +1,1 @@
+std::vector<int> vec; for (int i = 0; i < 10; ++i) { vec.push_back(i); } // Use at() for bounds checking for (int i = 0; i < vec.size(); ++i) { //Access elements within bounds vec.at(i); //or vec[i];  } // Alternative: Range-based for loop for (int& val : vec) { //Process elements within bounds val; } 
